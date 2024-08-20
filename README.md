@@ -9,7 +9,7 @@ DDD bifurcates the software development process into two primary aspects: Strate
 
 The Tactical Design phase introduces a suite of patterns that guides the code-writing process, such as Value Objects, Repositories, Vertical Slicing, Criteria, Bounded Contexts, and Aggregates, among others.
 
-[Learning Domain Driven Design Book](./assets/images/learning-domain-driven-design-book.png)
+![Learning Domain Driven Design Book](./assets/images/learning-domain-driven-design-book.png)
 
 
 ## Why Golang?
