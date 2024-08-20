@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"mymodule/User/Application/UserRegister"
+	UserRegister "mymodule/User/Application/Register"
 	User "mymodule/User/Domain"
 	InMemoryUserRepository "mymodule/User/Infrastructure/InMemory"
 	"strings"
