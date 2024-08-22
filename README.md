@@ -34,7 +34,7 @@ Golang excels in simplicity and development velocity. However, there are several
 ```bash
 User/
 ├── Application/
-│   └── UserRegister/
+│   └── Register/
 │       └── UserRegister.go
 ├── Domain/
 │   ├── UserEmail/
