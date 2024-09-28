@@ -1,0 +1,13 @@
+FROM golang:1.22.3
+
+# Set working directory
+WORKDIR /app
+
+# Copy go mod and sum files
+COPY go.mod ./
+
+# Download all dependencies
+RUN go mod download
+
+# Expose port 8000
+EXPOSE 8080

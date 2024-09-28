@@ -1,0 +1,13 @@
+
+services:
+
+  backend:
+    container_name: exp_009_2024__backend
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    tty: true
+    ports: 
+      - 8080:8080
+    volumes:
+      - .:/app
